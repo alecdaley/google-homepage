@@ -1,0 +1,80 @@
+.center {
+
+
+    position: absolute;
+
+
+  left: 50%;
+
+
+  top: 30%;
+
+
+  transform: translate(-50%, -50%);
+  
+  
+  }
+
+.topnav input[type=text] {
+  position: absolute;
+  left: 37%;
+  top: 38%;
+  padding: 5px;
+  border: .5px solid lightgray;
+  border-radius: 25px;
+  margin-top: 25px;
+  margin-right: 15px;
+  font-size: 20px;
+  width: 500px; 
+  z-index: 1;
+}
+
+.topnav .material-icons {
+  position: absolute;
+  left: 37.5%;
+  top: 41.5%;
+  z-index: 4;
+}
+
+#app {
+  float: right;
+  border: none;
+  border-radius: 25%;
+  background-color: white;
+}
+
+#images {
+  float: right;
+  margin-right: 30px;
+  text-decoration: none;
+  color: black
+}
+
+#gmail {
+  position: absolute;
+  left: 90%;
+  text-decoration: none;
+  color: black
+}
+
+#About {
+  font-size: 15px
+}
+
+#Store {
+  position: absolute;
+  left: 7%;
+  font-size: 15px;
+}
+
+p {
+  position: absolute;
+}
+
+#gmail:hover, #images:hover {
+  text-decoration: underline;
+}
+
+#app:hover {
+background-color: rgba(0,0,0,0.1);
+}
